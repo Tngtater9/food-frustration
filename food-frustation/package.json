@@ -24,6 +24,12 @@
     "lint": "npx prettier --write .",
     "check": "npx prettier --check ."
   },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
   "browserslist": {
     "production": [
       ">0.2%",
